@@ -57,6 +57,7 @@ const config: HardhatUserConfig = {
     networks: {
         'avalanche-mainnet': {
             eid: EndpointId.AVALANCHE_V2_MAINNET,
+            chainId: 43114,
             url: process.env.RPC_URL_AVALANCHE_MAINNET || 'https://avax-mainnet.g.alchemy.com/v2/YZGQb5WG7Ax8YmC51A7vW',
             accounts,
             oftAdapter: {
@@ -65,9 +66,8 @@ const config: HardhatUserConfig = {
         },
         'ethereum-mainnet': {
             eid: EndpointId.ETHEREUM_V2_MAINNET,
-            url:
-                process.env.RPC_URL_ETH_MAINNET ||
-                'https://eth-mainnet.g.alchemy.com/v2/fcK4AEYquRkIgqn0REy8N0uOsiO3kqKI',
+            chainId: 1,
+            url: 'https://gateway.tenderly.co/public/mainnet',
             accounts,
         },
         hardhat: {
@@ -78,6 +78,11 @@ const config: HardhatUserConfig = {
     namedAccounts: {
         deployer: {
             default: 0, // wallet address of index[0], of the mnemonic in .env
+        },
+    },
+    verify: {
+        etherscan: {
+            apiKey: 'BM4TU8NEYISQUI5YM1T95KM9374Y63CJPU',
         },
     },
 }
