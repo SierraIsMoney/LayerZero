@@ -7,18 +7,6 @@
   ],
   "settings": {
     "workbench.colorTheme": "Default Dark+",
-    "workbench.colorCustomizations": {
-      "titleBar.activeBackground": "#dc2626",
-      "titleBar.activeForeground": "#ffffff",
-      "titleBar.inactiveBackground": "#ef4444",
-      "titleBar.inactiveForeground": "#fef2f2",
-      "statusBar.background": "#dc2626",
-      "statusBar.foreground": "#ffffff",
-      "statusBarItem.hoverBackground": "#b91c1c",
-      "activityBar.background": "#dc2626",
-      "activityBar.foreground": "#ffffff",
-      "activityBar.inactiveForeground": "#fca5a5"
-    },
     "workbench.tree.indent": 20,
     "workbench.tree.renderIndentGuides": "always"
   },
