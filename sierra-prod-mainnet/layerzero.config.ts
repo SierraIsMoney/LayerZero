@@ -22,12 +22,12 @@ import type { OmniPointHardhat } from '@layerzerolabs/toolbox-hardhat'
  */
 const avalancheContract: OmniPointHardhat = {
     eid: EndpointId.AVALANCHE_V2_MAINNET,
-    contractName: 'MyOFTAdapter',
+    contractName: 'LytPoolOFTAdapter',
 }
 
 const ethereumContract: OmniPointHardhat = {
     eid: EndpointId.ETHEREUM_V2_MAINNET,
-    contractName: 'MyOFT',
+    contractName: 'LytPoolOFT',
 }
 
 // To connect all the above chains to each other, we need the following pathways:

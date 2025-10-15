@@ -62,7 +62,7 @@ const config: HardhatUserConfig = {
             url: process.env.RPC_URL_AVALANCHE_MAINNET || 'https://avax-mainnet.g.alchemy.com/v2/YZGQb5WG7Ax8YmC51A7vW',
             accounts,
             oftAdapter: {
-                tokenAddress: '', // Set the token address for the OFT adapter
+                tokenAddress: '0x6E6080e15f8C0010d333D8CAeEaD29292ADb78f7', // Set the token address for the OFT adapter
             },
         },
         'ethereum-mainnet': {
