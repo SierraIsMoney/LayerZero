@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "Sierra QA Testnet",
+      "path": "./sierra-qafb-testnet"
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#059669",
+      "titleBar.activeForeground": "#ffffff",
+      "titleBar.inactiveBackground": "#047857",
+      "titleBar.inactiveForeground": "#e5e7eb",
+      "statusBar.background": "#059669",
+      "statusBar.foreground": "#ffffff",
+      "statusBarItem.hoverBackground": "#047857",
+      "activityBar.background": "#059669",
+      "activityBar.foreground": "#ffffff",
+      "activityBar.inactiveForeground": "#9ca3af"
+    },
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always"
+  },
+  "extensions": {
+    "recommendations": [
+      "JuanBlanco.solidity",
+      "ms-vscode.vscode-typescript-next",
+      "bradlc.vscode-tailwindcss"
+    ]
+  }
+}
