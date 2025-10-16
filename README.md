@@ -13,6 +13,13 @@ Quickstart documentation by LayerZero: https://docs.layerzero.network/v2/develop
 
 ### Deployed addresses
 
+Mainnet (sierra-prod-mainnet):
+
+- Ethereum Mainnet
+  - LytPoolOFT: `0x6bf7788EAA948d9fFBA7E9bb386E2D3c9810e0fc`
+- Avalanche Mainnet
+  - LytPoolOFTAdapter: `0xc472d3a47719DE5F9d808CA91d7B70BD2138bCAa`
+
 Mainnet (sierra-qa-mainnet):
 
 - Ethereum Mainnet
@@ -37,10 +44,10 @@ Testnets (sierra-qafb-testnet):
 npx @layerzerolabs/verify-contract -d "./deployments" -n "fuji" -u "https://api.routescan.io/v2/network/testnet/evm/43113/etherscan/api"
 ```
 
-- Sepolia example (hide your API key using an env var or placeholder):
+- Etherscan example:
 
 ```bash
-npx @layerzerolabs/verify-contract -d "./deployments" -n "sepolia" -u "https://api-testnet.snowscan.xyz/api" -k "$ETHERSCAN_API_KEY"
+npx @layerzerolabs/verify-contract -d "./deployments" -n "ethereum-mainnet" -u "https://api.etherscan.io/v2/api?chainid=<CHAIN_ID>&apikey=<API_KEY>" -k "<API_KEY>"
 ```
 
 ### LayerZero configuration checker
