@@ -1,6 +1,6 @@
-# LytPool-LayerZero-Oft-Deployments
+# Sierra LayerZero Oft Deployments
 
-Repo to track LayerZero OFT deployments for LytPool instances
+Repo to track LayerZero OFT deployments for Sierra instances
 
 Video/tutorial with LayerZero @Dane to deploy oftAdapter: https://www.youtube.com/watch?v=k4JQQUQWMMs
 
@@ -16,9 +16,9 @@ Quickstart documentation by LayerZero: https://docs.layerzero.network/v2/develop
 Mainnet (sierra-prod-mainnet):
 
 - Ethereum Mainnet
-  - LytPoolOFT: `0x6bf7788EAA948d9fFBA7E9bb386E2D3c9810e0fc`
+  - SierraOFT: `0x6bf7788EAA948d9fFBA7E9bb386E2D3c9810e0fc`
 - Avalanche Mainnet
-  - LytPoolOFTAdapter: `0xc472d3a47719DE5F9d808CA91d7B70BD2138bCAa`
+  - SierraOFTAdapter: `0xc472d3a47719DE5F9d808CA91d7B70BD2138bCAa`
 
 Mainnet (sierra-qa-mainnet):
 
