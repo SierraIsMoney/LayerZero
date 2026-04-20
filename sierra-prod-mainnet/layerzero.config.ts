@@ -51,7 +51,7 @@ const pathways: TwoWayConfig[] = [
     [
         avalancheContract, // Chain A contract
         ethereumContract, // Chain B contract
-        [['LayerZero Labs', 'Google'], []], // [ requiredDVN[], [ optionalDVN[], threshold ] ]
+        [['LayerZero Labs', 'Google', 'Nethermind', 'Canary', 'Deutsche Telekom'], []], // [ requiredDVN[], [ optionalDVN[], threshold ] ]
         [12, 15], // [A to B confirmations, B to A confirmations]
         [EVM_ENFORCED_OPTIONS, EVM_ENFORCED_OPTIONS], // Chain B enforcedOptions, Chain A enforcedOptions
     ],
